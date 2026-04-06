@@ -1,0 +1,60 @@
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.npz
+
+# Model artifacts
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.h5
+*.keras
+
+# Temporary files
+tmp/
+temp/
+
+# Outputs
+outputs_stgcn/
+outputs_cds/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+
+# Misc
+*.swp
+*.swo
